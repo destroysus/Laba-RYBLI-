@@ -10,4 +10,7 @@
 #### Скриншот
 ![Alt-текст](https://github.com/destroysus/Laba-RYBLI-/blob/main/RYBLI/Skrin.jpg "Скриншот программы")
 
+
+### Программа выводит текст начиная в заглавной буквы
+
 **Zavyalov Artem FT-200008**
