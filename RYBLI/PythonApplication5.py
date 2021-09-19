@@ -69,7 +69,8 @@ elif number >=1000 and number < 10000:
         print(thousandths_list[twos].capitalize() + " " + hundredths_list[h4] + " " + decades_list[h3], end=" ")
     elif tens != 0 and h !=0 and a !=0:
         print(thousandths_list[twos].capitalize() + " " + hundredths_list[h4] + " " + decades_list[h3] + " " + number_list[tens], end=" ")
-
+elif number > 9999 : 
+    print ("Число не должно превышать больше 9999." + " Ваше число:", number, end=" ")      
 if (number % 10 == 5) or (number % 10 == 6) or (number % 10 == 7) or (number % 10 == 8) or (number % 10 == 9) or (number % 10 == 0) or (number % 100 == 11) or (number % 100 == 12) or (number % 100 == 13) or (number % 100 == 14) or (number % 100 == 15) or (number % 100 == 16) or (number % 100 == 17) or (number % 100 == 18) or (number % 100 == 19): 
     print ("рублей")
 elif (number % 10 == 2) or (number % 10 == 3) or (number % 10 == 4):
